@@ -56,10 +56,10 @@ SOFTWARE.
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[commits-shield]: https://img.shields.io/github/commit-activity/y/erik73/addon-mail.svg
-[commits]: https://github.com/erik73/addon-mail/commits/main
-[github-actions-shield]: https://github.com/erik73/addon-mail/workflows/CI/badge.svg
-[github-actions]: https://github.com/erik73/addon-mail/actions
-[issue]: https://github.com/erik73/addon-mail/issues
+[commits-shield]: https://img.shields.io/github/commit-activity/y/ScanEarth/addon-mail.svg
+[commits]: https://github.com/ScanEarth/addon-mail/commits/main
+[github-actions-shield]: https://github.com/ScanEarth/addon-mail/workflows/CI/badge.svg
+[github-actions]: https://github.com/ScanEarth/addon-mail/actions
+[issue]: https://github.com/ScanEarth/addon-mail/issues
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
