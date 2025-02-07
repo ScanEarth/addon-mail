@@ -1,6 +1,8 @@
 <?php
 $CONF['configured'] = true;
 
+$CONF['setup_password'] = '$2y$10$Hj/IFtgfvKSV/LaM/8T4wOP9.88F3sAeKODCe6CyLTCWIcnCmvbKq';
+
 $CONF['database_type'] = 'mysqli';
 $CONF['database_host'] = getenv("host");
 $CONF['database_user'] = getenv("username");
