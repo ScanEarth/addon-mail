@@ -57,7 +57,7 @@ SOFTWARE.
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [commits-shield]: https://img.shields.io/github/commit-activity/y/ScanEarth/addon-mail.svg
-[commits]: https://github.com/ScanEarth/addon-mail/commits/main
+[commits]: https://github.com/ScanEarth/addon-mail/commits/ScanEarth
 [github-actions-shield]: https://github.com/ScanEarth/addon-mail/workflows/CI/badge.svg
 [github-actions]: https://github.com/ScanEarth/addon-mail/actions
 [issue]: https://github.com/ScanEarth/addon-mail/issues
