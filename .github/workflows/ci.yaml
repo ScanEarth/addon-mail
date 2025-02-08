@@ -13,4 +13,4 @@ on:
 
 jobs:
   workflows:
-    uses: erik73/workflows/.github/workflows/addon-ci.yaml@main
+    uses: scanearth/workflows/.github/workflows/addon-ci.yaml@main
