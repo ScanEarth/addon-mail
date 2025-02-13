@@ -14,8 +14,9 @@ smtp      inet  n       -       n       -       -       smtpd
 #smtpd     pass  -       -       n       -       -       smtpd
 #dnsblog   unix  -       -       n       -       0       dnsblog
 #tlsproxy  unix  -       -       n       -       0       tlsproxy
-submission inet n       -       n       -       -       smtpd
-  -o syslog_name=postfix/submission
+submission inet n       -       -       -       -       smtpd
+-o smtp_tls_mandatory_protocols=TLSv1
+-o syslog_name=postfix/submission
   -o smtpd_tls_security_level=encrypt
   -o smtpd_sasl_auth_enable=yes
 #  -o smtpd_tls_auth_only=yes
@@ -35,7 +36,7 @@ smtps     inet  n       -       y       -       -       smtpd
 #  -o smtpd_helo_restrictions=$mua_helo_restrictions
 #  -o smtpd_sender_restrictions=$mua_sender_restrictions
 #  -o smtpd_recipient_restrictions=
-#  -o smtpd_relay_restrictions=permit_sasl_authenticated,reject
+  -o smtpd_relay_restrictions=permit_sasl_authenticated,reject
   -o milter_macro_daemon_name=ORIGINATING
 #628       inet  n       -       n       -       -       qmqpd
 pickup    unix  n       -       n       60      1       pickup
